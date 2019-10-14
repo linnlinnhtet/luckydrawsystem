@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(248, 247, 247);
+}
+
+.form_control {
+    width: 50%;
+    /* background-color: aliceblue; */
+    margin: auto;
+}
+
+.form_control h1 {
+    padding-left: 3rem;
+}
+
+.lucky_form {
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.lucky_form label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.generate_no select,
+.price_type select,
+.winning_no input {
+    width: 40%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.winning_no input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.generate_no select:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.price_type select:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.generate_no select,
+.price_type select {
+    padding: 10px 10px;
+}
+
+.winning_no input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 10px;
+}
+
+.btn_draw {
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.lucky_form hr {
+    margin-top: 10px;
+}
+
+#btn_generate {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#btn_generate:hover {
+    color: chocolate;
+}
